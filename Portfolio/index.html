@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"
+    ! -- -----------link to JavaScript------------- -->
+    <script src="https://kit.fontawesome.com/6dc9cf79ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#achievements">Achievements</a> </li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Suraiya</span><br>from Tamil Nadu.</h1>
+            </div>
+        </div>
+    </div>
+   <!------------------About-------------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Highly Analytical Front-End Developer with expertise in HTML, CSS and JavaScript, 
+                    Various Front-End Frameworks. I develop a dynamic and responsive interfaces. 
+                    With a deep understanding of Front-End Development best practices, 
+                    I am an innovative developer experienced in Java.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul><li><span>Web Development</span><br>HTML, CSS and JavaScript</li>
+                            <li><span>Data Visualization</span><br>Excel Functions</li>
+                            <li><span>Databases</span><br>MySQL, MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul><li><span>2024 Nov - Present</span><br>Web Developer Intern at CodSoft</li>
+                        <li><span>2023 Sep - April 2024 </span><br>Software Trainee at Medjacket India Pvt. Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul><li><span>2023 - 2027</span><br>B.E  electronics and Communication Engineering in Mahendra college of Engineering</li>
+                            <li><span>2020 - 2021</span><br>Girls Municipal High School</li>
+                            <li><span>2022 - 2023</span><br>Girls Municipal High School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------achievements---------------- -->
+ <div id="achievements">
+    <div class="container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="achievements-list">
+            <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>Certificate</h2>
+                <p>Awarded Certificate in stretching
+                    conforming to Goverment of Tamil Nadu.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Representative</h2>
+                <p>Honoured as class representative - MCE.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-file-code"></i>
+                <h2>Web Development</h2>
+                <p>Web Development Internship offer from CodSoft.</p>
+                <a href="#">LearnMore</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- --------------------portfolio----------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div class="project">
+                <img src="images/3-Login-Page-Screen.jpg">
+                <div class="layer">
+                    <h3>Login Page Screen</h3>
+                    <p>A Basic login page having login details like Email address, Password and login tab,
+                         Signup to Create Account and login with Google or Facebook tabs using HTML and CSS.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/HIMS Project 2.png">
+                <div class="layer">
+                    <h3>Simple Calculator</h3>
+                    <p>This is an Simple calculator. It is an Web Application 
+                        and done testing in application of calculating to Billing of Numbers.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/LMS Project 3.png">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>landing page is an web page. Done testing in Web Application in 
+                        conveying news, offers and informations and may more.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ----------------contact-------------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mariyamshek8@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="http://linkedin.com/in/R-suraiya"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/mariyamshek"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Suraiya-resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Suraiya. All rights reserved.</p>
+        </div>
+     </div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    } 
+
+</script>
+
+
+
+
+</body>
+</html>
+
